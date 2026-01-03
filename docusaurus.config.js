@@ -95,7 +95,7 @@ const config = {
             sidebarId: 'tutorialSidebar',
             position: 'left',
             label: 'Projects',
-          }
+          },
           {
             href: 'https://github.com/facebook/docusaurus',
             label: 'GitHub',
