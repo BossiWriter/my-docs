@@ -1,5 +1,6 @@
 ---
 sidebar_position: 0
+slug: /
 ---
 # Emerson Bossi | Technical Writer & Documentation Specialist
 
