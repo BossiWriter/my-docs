@@ -48,10 +48,6 @@ The shift toward AI-driven security has created high-demand specializations with
 
 Below is a breakdown of key roles and their average annual salaries in the US.
 
-:::important
-[Glassdoor](https://www.glassdoor.com), [Indeed](https://www.indeed.com).
-:::
-
 ### A. Cybersecurity Analyst
 
 * **Focus:** Monitoring network traffic and responding to incidents using SIEM tools like **[Microsoft Sentinel](https://www.microsoft.com/en-us/security/business/siem-and-xdr/microsoft-sentinel)**.
