@@ -13,8 +13,6 @@ sidebar_label: "Linux Reference"
 
 # Essential Linux Commands for Beginners: A Technical Reference
 
-## Table of Contents
-
 * [1. File and Directory Management](#1-file-and-directory-management)
 * [2. File Operations](#2-file-operations)
 * [3. Viewing and Searching Content](#3-viewing-and-searching-content)
@@ -31,7 +29,7 @@ To ensure clarity for the reader, this reference guide is defined by the followi
 
 ## Overview
 
-This is a reference guide targeted at new Linux users. It lists useful and commonly used commands to navigate and manage files using the Linux Terminal.
+This is a reference guide targeted at new Linux users. It lists commonly used commands for file system navigation and basic terminal usage.
 
 :::tip
 Examples will focus on the path `/home/username` for consistency.
@@ -41,7 +39,7 @@ Examples will focus on the path `/home/username` for consistency.
 
 ### `ls` - List Directory Contents
 
-Lists all files and folders inside the current directory.
+Lists all files and directories in the specified path or current directory.
 
 * **Usage:** `ls [options]`
 
@@ -102,7 +100,7 @@ Displays the entire content of a file directly in the terminal window.
 
 ### `grep` - Global Regular Expression Print
 
-Searches for a specific text string within a file.
+Searches for text patterns within files.
 
 * **Usage:** `grep "index" /home/username/Desktop/NewDirectory/file_list.txt`
 

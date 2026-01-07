@@ -13,6 +13,10 @@ const config = {
   title: 'Emerson Bossi',
   tagline: 'Technical Writer Portfolio',
   favicon: 'img/favicon.ico',
+  markdown: {
+    mermaid: true,
+  },
+  themes: ['@docusaurus/theme-mermaid'],
 
   // Future flags, see https://docusaurus.io/docs/api/docusaurus-config#future
   future: {
@@ -139,3 +143,4 @@ const config = {
 };
 
 export default config;
+
