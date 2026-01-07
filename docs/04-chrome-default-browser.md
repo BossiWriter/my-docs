@@ -12,10 +12,10 @@ sidebar_label: "Chrome Default Setup Guide"
 
 # How to Set Chrome as Default Browser on Windows 11
 
-This guide explains how to change Windows 11’s default browser from Microsoft Edge to Google Chrome, including workarounds for system-enforced Edge behaviors.
+This guide explains how to change Windows 11’s default browser from Microsoft Edge to Google Chrome.
 
 :::note
-The following steps require a third-party tool that may stop working after major Windows updates.
+Due to Windows 11's design restrictions, some steps require a third-party tool that may stop working after major Windows updates.
 :::
 
 :::warning
