@@ -15,10 +15,40 @@ Additionally, my bilingual fluency in **English** and **Brazilian Portuguese** l
 
 ---
 
-## 📌 Documentation Approach
+## 📌 Featured Project
+
+### [GitHub REST API — Technical Documentation](./github-api-doc/guides/overview/)
+
+A Docs-as-code documentation project focused on the **GitHub REST API**, built with **Docusaurus** and validated through **real authenticated API requests**.
+
+This is an ongoing project that will be periodically updated for improvement and additional content.
+
+**Project Highlights**
+
+**What this project demonstrates:**
+
+- End-to-end API documentation structure (overview → quick start → guides → reference)
+
+- Authenticated requests using cURL and PowerShell
+
+- Pagination handling and response analysis
+
+- Error and status code mapping based on real API behavior
+
+- Validation against official sources and live testing
+
+- Strong emphasis on UX, scanability, and developer experience
+
+This project represents my current technical writing skill level and my ability to document real-world APIs from exploration to final reference.
+
+---
+
+## 📝 Documentation Approach
 My approach to documentation is different from the other content creation methods I use for SEO content writing or fictional writing.
 
 I focus on awareness, clarity, structure, scope, and adequately aligning language to the target audience. The target is solving the problem for the reader rather than engaging them.
+
+---
 
 ## 🛠️ Portfolio Projects
 

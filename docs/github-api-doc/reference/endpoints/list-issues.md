@@ -24,6 +24,8 @@ This endpoint might return responses with pull requests, which are identified by
 This endpoint supports pagination. See [Pagination](../../guides/pagination.md).
 :::
 
+---
+
 ## HTTP Request
 
 `GET https://api.github.com/repos/{owner}/{repo}/issues`
@@ -42,6 +44,8 @@ This endpoint supports pagination. See [Pagination](../../guides/pagination.md).
 | `page` | integer | Page number of the results to fetch. Default: 1. |
 | `state` | string | Current issue state. Options: `open`, `closed`, `all`. Default: `open`. |
 | `per_page` | integer | Number of results per page (max 100). |
+
+---
 
 ## Example Request
 
@@ -75,6 +79,8 @@ Invoke-RestMethod -Uri "https://api.github.com/repos/{owner}/{repo}/issues?state
 </TabItem>
 </Tabs>
 
+---
+
 ## Response Example (JSON)
 ```json
 [
@@ -106,6 +112,8 @@ Invoke-RestMethod -Uri "https://api.github.com/repos/{owner}/{repo}/issues?state
 ]
 ```
 
+---
+
 ## Response Fields
 
 | Field | Type | Description |
@@ -125,6 +133,8 @@ Invoke-RestMethod -Uri "https://api.github.com/repos/{owner}/{repo}/issues?state
 | `updated_at` | string | Issue last update timestamp in ISO 8601 format. |
 | `closed_at` | string (nullable) | Issue closure timestamp in ISO 8601 format. Returns `null` when open. |
 | `body` | string | Main content or description of the issue. Supports Markdown. |
+
+---
 
 ## Status Codes
 

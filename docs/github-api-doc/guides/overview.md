@@ -10,6 +10,8 @@ This documentation was built using official GitHub documentation and validated t
 
 This is a technical documentation project focused on the GitHub REST API and based on real-world use and valid application. This API returns JSON responses and supports multiple request tools. Here, the requests will be made through cURL and PowerShell, which are accessible and popular tools.
 
+---
+
 ## GitHub REST API Overview
 
 | Resource | Details |
@@ -19,6 +21,8 @@ This is a technical documentation project focused on the GitHub REST API and bas
 | **Auth** | Personal Access Token (PAT) |
 | **Format** | JSON |
 
+---
+
 ## Learning Experiences
 
 * Creating tokens and authentication
@@ -27,6 +31,8 @@ This is a technical documentation project focused on the GitHub REST API and bas
 * Validating requests against real API usage
 * Filtering useful JSON metadata from responses
 * Implementing the `GET` List Issues request into your workflow
+
+---
 
 ## In Scope
 
@@ -38,9 +44,13 @@ The GitHub REST API was chosen for being popular but not overly documented. The 
 
 `GET` List Issues was chosen as the first endpoint for being complete, providing multiple explanation threads and examples to populate the documentation.
 
+---
+
 ## Out of Scope
 
 The scope currently avoids explanation that is unrelated to the endpoint. For instance, while it still has room to expand on GraphQL API, write operations, or webhooks, they will be implemented as necessary.
+
+---
 
 ## How to Navigate 
 
@@ -62,9 +72,13 @@ Quick Start → Authentication → Pagination → `GET` List Issues → Errors &
 
 * **Troubleshooting:** Check [Validation and Sources](../guides/validation-and-sources.md) or [Errors and Status Codes](../guides/errors-and-status-codes.md) if you encounter issues.
 
+---
+
 ## Target Audience
 
 This documentation is intended for new and experienced developers, as well as technical writers and API consumers looking for validated references and detailed guides for the GitHub REST API.
+
+---
 
 ## Documentation Philosophy
 

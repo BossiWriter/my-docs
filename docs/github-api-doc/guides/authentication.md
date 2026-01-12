@@ -17,6 +17,8 @@ Before interacting with the GitHub REST API, it's highly recommended to use a **
 This authentication is targeted at making authenticated requests to issue endpoints. While it may work for other operations, those are not the current goal. Anything not mentioned can be left at default values.
 :::
 
+---
+
 ## Why Authenticate?
 
 * **Increased Rate Limits:** Unauthenticated requests are limited to **60 per hour per IP**. With a PAT, the rate limit is raised to **5,000 per hour per user**.
@@ -24,6 +26,8 @@ This authentication is targeted at making authenticated requests to issue endpoi
 * **Private Access:** Authentication is required to list issues from private repositories, among other operations.
 
 * **Increased Security:** Proper authorization ensures only users with secure access can perform specific actions on repositories.
+
+---
 
 ## How to Generate Personal Access Token (PAT)
 
@@ -50,6 +54,8 @@ This authentication is targeted at making authenticated requests to issue endpoi
 ## Using the Personal Access Token
 
 Enter the PAT together with the `Authorization` header of HTTP requests using the `Bearer` scheme.
+
+---
 
 ### Examples
 
@@ -90,6 +96,8 @@ Invoke-RestMethod -Uri "https://api.github.com/repos/{owner}/{repo}/issues?state
 :::note
 If a token is invalid or expired, the request will return a `401 Unauthorized` error with the message `Bad credentials`.
 :::
+
+---
 
 ## Token Scope
 While the scope may change in the future with a project expansion, the current version uses a fine-grained PAT with access limited to:

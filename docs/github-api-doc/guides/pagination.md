@@ -8,6 +8,8 @@ The GitHub REST API uses pagination to split large request results into smaller 
 
 It's a minor trade-off that significantly improves API response times and performance for everyone.
 
+---
+
 ## Pagination Parameters
 
 The GitHub REST API uses two primary query parameters to control pagination requests.
@@ -25,6 +27,8 @@ GitHub doesn't use pagination metadata for body JSON responses, like the total n
 
 Whenever a response is paginated, the `Link` will have a `rel` label. The `Link` can sometimes be omitted if the response fits a single page.
 
+---
+
 ### `Link` Headers
 
 The `Link` header uses `rel` to provide direction to the URL while navigating through page results. 
@@ -35,6 +39,8 @@ The `Link` header uses `rel` to provide direction to the URL while navigating th
 | `rel="prev"` | Previous page of results. |
 | `rel="first"` | First page of results. |
 | `rel="last"` | Last page of results. |
+
+---
 
 ### Practical Example
 
@@ -60,6 +66,8 @@ To better understand how this works, let's follow the example below.
 `rel="last"` returns the last page from the repository total, not from your search total. This is why the value is 21 instead of 10.
 :::
 
+---
+
 ## Rate Limits
 
 Rate limits exist to control data flow and keep the API stable. GitHub limits your rate based on your authentication.
@@ -74,6 +82,8 @@ GitHub uses a credit system for their requests. Every request costs 1 credit. Th
 :::note
 A 60 request per hour rate doesn't mean you get only 60 pages. You can request up to 100 pages using a single request.
 :::
+
+---
 
 ### Pagination and Limits
 
@@ -91,6 +101,8 @@ You can save credits by making one large request, then filtering it, instead of 
 The total cost is **34 requests instead of 30** because every request costs **1 credit**, regardless of how many items it contains. 
 
 Since 1,000 / 30 = 33.33, you need 33 full requests plus one final (34th) request to fetch the remaining 10 items.
+
+---
 
 ### Exceeding Limit
 
@@ -112,6 +124,8 @@ These limits exist to keep APIs safe from unpredicted server overload and DDoS a
 
 Additionally, there's a secondary rate limit that you cannot check. This exists to avoid spam and triggers when too many requests are made within a short time, even if credits are available.
 
+---
+
 ## Behaviors and Observations
 
 **1. Non Numeric Values**
@@ -121,6 +135,8 @@ The GitHub API doesn't return an error when you add a string of letters into a p
 
 **2. Empty page**
 Whenever a request asks for a page that is empty or doesn't exist, GitHub API returns `200 OK` with an empty response body `[]`
+
+---
 
 ## Status Codes
 

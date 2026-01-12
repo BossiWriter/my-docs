@@ -13,6 +13,8 @@ This section aims to list and explain common errors and status codes within this
 The GitHub API intentionally uses ambiguous status codes (`403` and `404`) to avoid leaking information about private resources.
 :::
 
+---
+
 ## Global Status Codes
 
 <Tabs>
@@ -53,6 +55,8 @@ This list groups status codes by behavior to help identify issues based on how t
 | `404` | Not Found | Incorrect owner or repository name in URL. | Returns "Not Found" message. | Verify the spelling of `{owner}` and `{repo}`. |
 | `422` | Unprocessable Entity | Invalid filter values (e.g., wrong date in `since`). | Returns JSON with specific field errors. | Correct the parameter format (ISO 8601). |
 
+---
+
 #### **Authentication and Access Errors**
 
 | Status Code | Name | Context / When It Happens | Observed Behavior | Client Action |
@@ -61,6 +65,8 @@ This list groups status codes by behavior to help identify issues based on how t
 | `403` | Forbidden | Insufficient permissions for the resource. | Can indicate access restriction. Check token scopes. | Verify token permissions. Contact repo owner if needed. |
 | `404` | Not Found | Repository does not exist or user lacks access. | Same response for both cases to hide private resources. | Verify repo existence and permissions. Do not retry blindly. |
 
+---
+
 #### **Rate Limits and Performance**
 
 | Status Code | Name | Context / When It Happens | Observed Behavior | Client Action |
@@ -68,6 +74,8 @@ This list groups status codes by behavior to help identify issues based on how t
 | `304` | Not Modified | Conditional request using ETags. | No response body. **Does not consume credits**. | Use cached data. Do not retry immediately. |
 | `403` | Forbidden | Primary rate limit exceeded (5,000 req/h). | Check headers for reset time. | Inspect `x-ratelimit-remaining`. Wait for reset. |
 | `429` | Too Many Requests | Secondary rate limit triggered (burst traffic). | Temporary block. May include `Retry-After` header. | Back off. Retry after delay. Avoid concurrent bursts. |
+
+---
 
 #### **Server Errors**
 
@@ -116,6 +124,8 @@ This section lists status codes split into different tabs for each particular is
   </TabItem>
 </Tabs>
 
+---
+
 ## When Does Retry Make Sense?
 
 When making requests, you run into an error. Sometimes, it's valid to simply try the same request again. However, avoid retrying excessively.
@@ -132,11 +142,15 @@ Not all codes should be retried
 | `429` | ✅ | Retry after delay. |
 | `5xx` | ✅ | Retry with backoff. |
 
+---
+
 ## Request Errors
 
 If you make a bad request or run into issues with a particular request, the JSON may return an error.
 
 These JSON responses usually contain a readable message and a documentation reference.
+
+---
 
 ### Practical Error Example
 
