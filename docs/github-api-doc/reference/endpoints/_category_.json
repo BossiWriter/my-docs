@@ -1,0 +1,8 @@
+{
+  "label": "Endpoints",
+  "position": 1,
+  "link": {
+    "type": "generated-index",
+    "description": "Detailed technical specifications for GitHub API resources and endpoints."
+  }
+}

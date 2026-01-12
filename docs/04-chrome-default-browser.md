@@ -8,6 +8,7 @@ third_party_tools: ["EdgeDeflector"]
 audience: ["End-users"]
 risk_level: "Low"
 sidebar_label: "Chrome Default Setup Guide"
+sidebar_position: 6
 ---
 
 # How to Set Chrome as Default Browser on Windows 11

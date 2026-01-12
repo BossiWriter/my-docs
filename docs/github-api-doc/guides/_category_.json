@@ -1,0 +1,8 @@
+{
+  "label": "Guides & Fundamentals",
+  "position": 1,
+  "link": {
+    "type": "generated-index",
+    "description": "Essential concepts including a quick start, authentication, pagination, and error handling."
+  }
+}

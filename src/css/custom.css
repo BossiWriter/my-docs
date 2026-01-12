@@ -28,3 +28,24 @@
   --ifm-color-primary-lightest: #4fddbf;
   --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.3);
 }
+
+/* 1. FORMATO DO SELO: Adicione aqui o nome de qualquer arquivo que terá um selo */
+.menu__link[href*="list-issues"]::before {
+  display: inline-block;
+  /* Aumentamos o padding: 4px em cima/baixo e 8px nas laterais para a pílula crescer */
+  padding: 4px 8px; 
+  border-radius: 6px; /* Aumentado levemente para acompanhar o novo tamanho */
+  font-family: 'Fira Code', monospace;
+  /* Aumentamos a fonte: de 0.65rem para 0.8rem (mais legível) */
+  font-size: 0.8rem; 
+  font-weight: bold;
+  margin-right: 10px; /* Aumentamos o espaço entre o selo e o texto */
+  line-height: 1;
+  vertical-align: middle;
+}
+
+.menu__link[href*="list-issues"]::before {
+  content: 'GET';
+  background-color: #10b981; /* Verde */
+  color: white;
+}
