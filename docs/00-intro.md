@@ -3,6 +3,7 @@ sidebar_position: 1
 sidebar_label: "Introduction"
 slug: /
 ---
+
 # Emerson Bossi | Technical Writer & Documentation Specialist
 
 I’m a bilingual (EN / PT-BR) technical writer with a Bachelor’s degree in **Computer Science** and over **11 years of experience** across **IT**, **technical support**, **content creation**, and **AI training**.
@@ -12,6 +13,8 @@ My background in **technical support** and **customer support** roles helps me u
 By combining my **technical and customer background** with my years of **content, fiction, and technical writing** experience, I can craft **user guides, technical references, troubleshooting documentation, and industry research** for both **end-users** and **developers** alike.
 
 Additionally, my bilingual fluency in **English** and **Brazilian Portuguese** lets me adapt and localize technical content for different audiences with varying levels of expertise.
+
+ℹ️ Want to know more about me and my work history? Visit my [LinkedIn profile](https://www.linkedin.com/in/bossiwriter) and [Wix portfolio](https://bossiwriter.wixsite.com/content-writer)!
 
 ---
 
@@ -28,6 +31,8 @@ This is an ongoing project that will be periodically updated for improvement and
 **What this project demonstrates:**
 
 - End-to-end API documentation structure (overview → quick start → guides → reference)
+
+- Technical expertise via subject, structure, Docs-as-code, and Markdown command
 
 - Authenticated requests using cURL and PowerShell
 
@@ -68,7 +73,7 @@ It'll be consistently updated with more content, but these are the current highl
 
 * **Goal:** Solve "This PC can't run Windows 11" error.
 
-* **Highlights:** Clear diagnostic logic and structure, concise troubleshooting steps, risk management, and verification.
+* **Highlights:** Clear diagnostic logic and structure using a Mermaid fluxogram, concise troubleshooting steps, risk management, verification.
 
 * **Target Audience:** General users and IT technicians.
 
@@ -84,16 +89,16 @@ It'll be consistently updated with more content, but these are the current highl
 
 * **Goal:** Create a step-by-step guide to changing system defaults on Windows 11.
 
-* **Highlights:** Visual documentation and guidance, descriptive alt-texts, disclaimer placements, and end-user focus.
+* **Highlights:** Visual documentation and guidance through screenshots, descriptive alt-texts, disclaimer placements, and end-user focus.
 
 * **Target Audience:** End-users.
 
-## 📫 Connect with me
-
 ---
+
+## 📫 Work with me
 
 * **LinkedIn:** [linkedin.com/in/bossiwriter](https://www.linkedin.com/in/bossiwriter)
 
 * **Email:** bossiwriter@gmail.com
 
-* **Portfolio:** https://bossiwriter.wixsite.com/content-writer
+* **Portfolio Hub:** https://bossiwriter.wixsite.com/content-writer
