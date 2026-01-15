@@ -6,7 +6,7 @@ slug: /
 
 # Emerson Bossi | Technical Writer & Documentation Specialist
 
-I’m a bilingual (EN / PT-BR) technical writer with a Bachelor’s degree in **Computer Science** and over **11 years of experience** across **IT**, **technical support**, **content creation**, and **AI training**.
+I’m a bilingual (EN / PT-BR) technical writer with 3 years of education in **Computer Science** and over **11 years of experience** across **IT**, **technical support**, **content creation**, and **AI training**.
 
 My background in **technical support** and **customer support** roles helps me understand **end-users' workflow** and their pain points. Meanwhile, my technical background and education allow me to **troubleshoot** complex issues and solve them.
 
