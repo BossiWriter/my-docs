@@ -8,7 +8,8 @@ tags: ["AI", "Cybersecurity", "Microsoft", "Career"]
 audience: ["IT professionals", "Security practitioners", "Career switchers"]
 content_type: "Industry Research / Career Guide"
 sidebar_label: "AI Cybersecurity Research"
-sidebar_position: 5
+slug: /cybersecurity-microsoft
+sidebar_position: 4
 ---
 
 # Microsoft’s AI-Driven Cybersecurity: Strategies, Roles, and Career Path

@@ -27,12 +27,12 @@ const config = {
   url: 'https://BossiWriter.github.io',
   // Set the /<baseUrl>/ pathname under which your site is served
   // For GitHub pages deployment, it is often '/<projectName>/'
-  baseUrl: '/my-docs/',
+  baseUrl: '/',
 
   // GitHub pages deployment config.
   // If you aren't using GitHub pages, you don't need these.
   organizationName: 'BossiWriter', // Usually your GitHub org/user name.
-  projectName: 'my-docs', // Usually your repo name.
+  projectName: 'bossiwriter.github.io', // Usually your repo name.
 
   onBrokenLinks: 'warn',
 
@@ -55,7 +55,7 @@ const config = {
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
           editUrl:
-            'https://github.com/BossiWriter/my-docs/tree/main/',
+            'https://github.com/BossiWriter/bossiwriter.github.io/tree/main/',
         },
         blog: false,
         theme: {
@@ -87,7 +87,7 @@ const config = {
             label: 'Projects',
           },
           {
-            href: 'https://github.com/BossiWriter/my-docs',
+            href: 'https://github.com/BossiWriter/bossiwriter.github.io',
             label: 'GitHub',
             position: 'right',
           },
@@ -128,7 +128,7 @@ const config = {
              
               {
                 label: 'GitHub',
-                href: 'https://github.com/BossiWriter/my-docs',
+                href: 'https://github.com/BossiWriter/bossiwriter.github.io',
               },
             ],
           },

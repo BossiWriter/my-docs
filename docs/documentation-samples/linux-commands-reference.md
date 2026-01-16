@@ -9,7 +9,8 @@ difficulty: "Beginner"
 scope: "File system navigation and basic CLI usage"
 non_goals: ["Shell scripting", "Advanced permissions", "Package management"]
 sidebar_label: "Linux Reference"
-sidebar_position: 3
+slug: /linux-reference
+sidebar_position: 2
 ---
 
 # Essential Linux Commands for Beginners: A Technical Reference

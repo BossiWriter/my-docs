@@ -7,7 +7,8 @@ status: "archived"
 topics: ["Windows 11", "Secure Boot", "UEFI", "MBR2GPT"]
 content_type: "Troubleshooting Guide"
 sidebar_label: "Windows 11 Troubleshooting"
-sidebar_position: 4
+sidebar_position: 1
+slug: /secureboot-troubleshooting
 ---
 
 # Troubleshooting: "This PC can't run Windows 11" (Secure Boot Error)
